@@ -6,12 +6,10 @@ namespace poo_bytebank
     {
         static void Main(string[] args)
         {
-            ContaCorrente contaDaGabriela = new ContaCorrente();
+            //ContaCorrente1 contaDaGabriela = new ContaCorrente1();
+            ContaCorrente2 contaDaGabriela = new ContaCorrente2();
 
             contaDaGabriela.titular = "Gabriela";
-            contaDaGabriela.agencia = 893;
-            contaDaGabriela.numero = 893;
-            contaDaGabriela.saldo = 100;
 
             Console.WriteLine("Titular: " + contaDaGabriela.titular);
             Console.WriteLine("Agencia: " + contaDaGabriela.agencia);
@@ -19,7 +17,7 @@ namespace poo_bytebank
             Console.WriteLine("Saldo: " + contaDaGabriela.saldo);
 
             contaDaGabriela.saldo += 200;
-            Console.WriteLine("Saldo: " + contaDaGabriela.saldo);
+            Console.WriteLine("Debitado no saldo 200: " + "Saldo = "+ contaDaGabriela.saldo);
         }
     }
 }
