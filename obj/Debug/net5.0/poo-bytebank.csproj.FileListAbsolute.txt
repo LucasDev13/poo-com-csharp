@@ -1,0 +1,16 @@
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/bin/Debug/net5.0/poo-bytebank
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/bin/Debug/net5.0/poo-bytebank.deps.json
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/bin/Debug/net5.0/poo-bytebank.runtimeconfig.json
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/bin/Debug/net5.0/poo-bytebank.runtimeconfig.dev.json
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/bin/Debug/net5.0/poo-bytebank.dll
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/bin/Debug/net5.0/ref/poo-bytebank.dll
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/bin/Debug/net5.0/poo-bytebank.pdb
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/obj/Debug/net5.0/poo-bytebank.csproj.AssemblyReference.cache
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/obj/Debug/net5.0/poo-bytebank.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/obj/Debug/net5.0/poo-bytebank.AssemblyInfoInputs.cache
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/obj/Debug/net5.0/poo-bytebank.AssemblyInfo.cs
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/obj/Debug/net5.0/poo-bytebank.csproj.CoreCompileInputs.cache
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/obj/Debug/net5.0/poo-bytebank.dll
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/obj/Debug/net5.0/ref/poo-bytebank.dll
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/obj/Debug/net5.0/poo-bytebank.pdb
+/home/lucasdev/Documentos/workspace-dotnet/poo-bytebank/obj/Debug/net5.0/poo-bytebank.genruntimeconfig.cache
