@@ -12,5 +12,13 @@ namespace poo_bytebank
         public int numero;
         public double saldo;
         
+        public bool sacar(double valor){
+            if(this.saldo < valor){
+                return false;
+            }else{
+                this.saldo -= valor;
+                return true;
+            }
+        }
     }
 }

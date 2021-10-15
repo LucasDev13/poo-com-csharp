@@ -8,22 +8,25 @@ namespace poo_bytebank
         {
             //ContaCorrente1 contaDaGabriela = new ContaCorrente1();
             //ContaCorrente2 contaDaGabriela = new ContaCorrente2();
-            ContaCorrente3 contaDaGabriela = new ContaCorrente3();
+            ContaCorrente contaCorrente1= new ContaCorrente();
 
-            contaDaGabriela.saldo = 200;
-            Console.WriteLine(contaDaGabriela.saldo);
+            contaCorrente1.saldo = 200;
+            Console.WriteLine(contaCorrente1.saldo);
 
-            contaDaGabriela.saldo += 100;
-            Console.WriteLine(contaDaGabriela.saldo);
+            contaCorrente1.saldo += 100;
+            Console.WriteLine(contaCorrente1.saldo);
 
-            ContaCorrente3 contaDaGabrielaCosta = new ContaCorrente3();
-            contaDaGabrielaCosta.saldo = 50;
+            ContaCorrente contaCorrente2 = new ContaCorrente();
+            contaCorrente2.saldo = 50;
 
-            Console.WriteLine("Saldo grabriela: "+contaDaGabriela.saldo);
-            Console.WriteLine("Saldo grabriela costa: "+contaDaGabrielaCosta.saldo);
+            Console.WriteLine("Saldo grabriela - conta corrente 1: "+contaCorrente1.saldo);
+            Console.WriteLine("Saldo grabriela costa - conta corrente 2: "+contaCorrente2.saldo);
 
-            contaDaGabriela = contaDaGabrielaCosta;
-            Console.WriteLine("Saldo grabriela: "+contaDaGabriela.saldo);
+            contaCorrente1 = contaCorrente2;
+            Console.WriteLine("Saldo grabriela: "+contaCorrente1.saldo);
+
+            contaCorrente1.sacar(50);
+            Console.WriteLine("Saldo conta corrente 1: " + contaCorrente1.saldo);
             
         }
     }
