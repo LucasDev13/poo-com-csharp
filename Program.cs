@@ -25,8 +25,11 @@ namespace poo_bytebank
             contaCorrente1 = contaCorrente2;
             Console.WriteLine("Saldo grabriela: "+contaCorrente1.saldo);
 
-            contaCorrente1.sacar(50);
+            contaCorrente1.Sacar(50);
             Console.WriteLine("Saldo conta corrente 1: " + contaCorrente1.saldo);
+
+            contaCorrente1.Depositar(100);
+            Console.WriteLine("Saldo da conta 1 - gabriela: " + contaCorrente1.saldo);
             
         }
     }
