@@ -6,7 +6,7 @@ namespace poo_bytebank
     {
         static void Main(string[] args)
         {
-            //ContaCorrente1 contaDaGabriela = new ContaCorrente1();
+/**            //ContaCorrente1 contaDaGabriela = new ContaCorrente1();
             //ContaCorrente2 contaDaGabriela = new ContaCorrente2();
             ContaCorrente contaCorrente1= new ContaCorrente();
 
@@ -36,8 +36,9 @@ namespace poo_bytebank
             Console.WriteLine("Depositado:");
             Console.WriteLine("Saldo da conta 1 - gabriela: " + contaCorrente1.saldo);
             Console.WriteLine("Saldo da conta 2 - gabriela costa: " + contaCorrente2.saldo);
+*/
 
-
+            Cliente gabriela = new Cliente();
             
         }
     }

@@ -7,7 +7,7 @@ namespace poo_bytebank
 {
     public class ContaCorrente
     {
-        public String titular;
+        public Cliente titular;
         public int agencia;
         public int numero;
         public double saldo;
