@@ -47,10 +47,11 @@ namespace poo_bytebank
 
             contaGabriela.titular = gabriela;
             //contaGabriela.titular = new Cliente();
-            contaGabriela.saldo = 500;
+            contaGabriela.DefinirSaldo(500);
             contaGabriela.agencia = 5555;
             contaGabriela.numero = 065;
 
+            Console.WriteLine("Saldo cliente: " + contaGabriela.ObterSaldo());
             Console.WriteLine("Objeto cliente: " + gabriela.nome);
             Console.WriteLine("Obejto conta corrente: " + contaGabriela.titular.nome);
 
