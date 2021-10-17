@@ -7,9 +7,9 @@ namespace poo_bytebank
 {
     public class ContaCorrente
     {
-        public Cliente titular {get; set;}
-        public int agencia {get; set;}
-        public int numero {get; set;}
+        public Cliente Titular {get; set;}
+        public int Agencia {get; set;}
+        public int Numero {get; set;}
         private double _saldo;
 
         //Propriedade Saldo com S maiúsculo, convensão de nomes de propriedades;
