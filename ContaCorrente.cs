@@ -24,6 +24,15 @@ namespace poo_bytebank
                 _saldo = value;
             }
         }
+
+        public ContaCorrente(int agencia, int numero){
+            Agencia = agencia;
+            Numero = numero;
+        }
+
+
+
+
         /**public void SetSaldo(double saldo){
             if(saldo < 0){
                 return;

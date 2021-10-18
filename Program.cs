@@ -43,14 +43,16 @@ namespace poo_bytebank
             gabriela.Profissao = "Desenvolvedora C#";
             gabriela.CPF = "000.000.000-11";
 
-            ContaCorrente contaGabriela = new ContaCorrente();
+            ContaCorrente contaGabriela = new ContaCorrente(5555,065);
 
             contaGabriela.Titular = gabriela;
             //contaGabriela.titular = new Cliente();
             contaGabriela.Saldo = 500;//settando um valor a partir da propriedade Saldo.
-            contaGabriela.Agencia = 5555;
-            contaGabriela.Numero = 065;
+            //contaGabriela.Agencia = 5555;
+            //contaGabriela.Numero = 065;
 
+            Console.WriteLine("Agencia: " + contaGabriela.Agencia);
+            Console.Write("Numero: " + contaGabriela.Numero);
             Console.WriteLine("Saldo cliente: " + contaGabriela.Saldo);
             Console.WriteLine("Objeto cliente: " + gabriela.Nome);
             Console.WriteLine("Obejto conta corrente: " + contaGabriela.Titular.Nome);
