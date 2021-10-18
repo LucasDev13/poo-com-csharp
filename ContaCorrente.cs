@@ -10,6 +10,9 @@ namespace poo_bytebank
         public Cliente Titular {get; set;}
         public int Agencia {get; set;}
         public int Numero {get; set;}
+
+        //propriedade que vai ser compartilhada com todos os objetos.
+        public static int TotalDeContasCriadas{get; private set;}
         private double _saldo;
 
         //Propriedade Saldo com S maiúsculo, convensão de nomes de propriedades;
@@ -25,9 +28,13 @@ namespace poo_bytebank
             }
         }
 
+        //Colocar informações obrigatórias no construtor é uma prático de programação defensiva.
+        //Evita cometer erros no código. Nunca terei um conta sem agencia e numero, serão sempre obrigatórios.
         public ContaCorrente(int agencia, int numero){
             Agencia = agencia;
             Numero = numero;
+            //propriedade que vai ser compartilhada com todos os objetos. Vai chamar o construtor cada vez que o objeto for criado.
+            TotalDeContasCriadas++;
         }
 
 
